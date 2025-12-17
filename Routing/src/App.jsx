@@ -5,7 +5,7 @@ function App()
   const [page,setPage]=useState("home");
 
     return(
-      <div>
+    /*  <div>
         <button onClick={()=>setPage("home")}>Home</button>
         <button onClick={()=>setPage("about")}>About</button>
         <button onClick={()=>setPage("contact")}>Contact</button>
