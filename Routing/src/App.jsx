@@ -5,6 +5,7 @@ function App()
 
     return(
       <div>
+        <button onClick={()=>setPage("home")}>Home</button>
     )
     
 
