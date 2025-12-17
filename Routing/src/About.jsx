@@ -9,7 +9,9 @@ function About() {
                 <li><Link to="/contact">Contact</Link></li> 
             </ul>
         </nav>
+
         <h2>This is About Page</h2>
+        </>
     )
     
 }
