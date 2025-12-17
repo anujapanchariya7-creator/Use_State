@@ -1,11 +1,12 @@
-import { useState } from "react"
 
-function App(){
+function App()
+{
   const [page,setPage]=useState("home")
 
     return(
       <div>
+    )
     
-)
+
 }
 export default App;
