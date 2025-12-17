@@ -5,9 +5,7 @@ function App(){
 
   return(
     <div>
-      <button onClick={()=>setPage("home")}>Home</button>
-      <button onClick={()=>setPage("about")}>About</button>
-      <button onClick={()=>setPage("contact")}>Contact</button>
-
-
-export default App
+    
+)
+}
+export default App;
