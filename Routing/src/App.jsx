@@ -14,8 +14,8 @@ function App()
       {page==="about" && <h1>Welcome to the About Page</h1>}
       {page==="contact" && <h1>Welcome to the Contact Page</h1>}
       </div>
+*/
     )
-    
 
 }
 export default App;
