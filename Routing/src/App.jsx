@@ -1,5 +1,7 @@
-import { BrowserRouter as  Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home.jsx';
+import About from './About.jsx';
+import Contact from './Contact.jsx';
 
 function App()
 {
