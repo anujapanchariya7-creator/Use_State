@@ -1,8 +1,6 @@
 function About() {
-
-return(
-    <>
-    <>
+    return(
+        <>
         <nav>
             <ul>
                 <li><Link to="/home">Home</Link></li>
@@ -10,9 +8,10 @@ return(
                 <li><Link to="/contact">Contact</Link></li> 
             </ul>
         </nav>
-    <h2>This is About Page</h2>
-    </>
-)
+
+        <h2>This is Contact Page</h2>
+        </>
+    )
     
 }
 export default About;
