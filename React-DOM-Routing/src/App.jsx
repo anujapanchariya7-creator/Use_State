@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import PostDetails from "./PostDetails";
-import About from "./About";
-import Login from "./Login";
-import Dashboard from "./Dashboard";
-import ProtectedRoute from "../components/ProtectedRoute";
-import Navbar from "../components/Navbar";
-import NotFound from "./NotFound";
+import Home from "./pages/Home";
+import PostDetails from "./pages/PostDetails";
+import About from "./pages/About";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import ProtectedRoute from "./components/ProtectedRoute";
+import Navbar from "./components/Navbar";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
