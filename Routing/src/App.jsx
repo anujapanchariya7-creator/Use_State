@@ -9,7 +9,7 @@ function App()
         <button onClick={()=>setPage("about")}>About</button>
         <button onClick={()=>setPage("contact")}>Contact</button>
      
-     {page==="home" && <h1>Welcome to the Home Page</h1>}
+      {page==="home" && <h1>Welcome to the Home Page</h1>}
       </div>
     )
     
