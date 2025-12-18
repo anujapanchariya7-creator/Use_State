@@ -1,6 +1,6 @@
 import BrowserRouter from "react-router-dom";
-import { link } from "react-router-dom";
 function User(){
+    const {id}=useParams();
 
   return(
         <>
