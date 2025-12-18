@@ -5,13 +5,12 @@ function App() {
   return (
   <BrowserRouter>
   <nav> 
-     <link to ="/home"></link>
-     <link to ="/dashboard"></link>
-
+     <link to ="/home"> Home</link>
+     <link to ="/dashboard"> Dashboard</link>
   </nav>
 
 
-  </BrowerRouter>
+  </BrowserRouter>
   );
 }
 export default App;
