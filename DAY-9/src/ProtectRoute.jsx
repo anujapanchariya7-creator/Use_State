@@ -2,7 +2,7 @@ import { isAuthenticated } from "./Auth";
 import { Navigate } from "react-router-dom";
 
 function ProtectRoute(children) {
-    if (isAuthenticated()) {
+    if (!isAuthenticated()) {
         return <Navigate to="/login" />;
     }
 }
