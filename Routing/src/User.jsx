@@ -1,3 +1,4 @@
+i
 function User(){
 <>
 <nav>
@@ -6,7 +7,7 @@ function User(){
         <link to =" user/2">user 2</link>
         <link to =" user/3">user 3</link>
     </li>
-    <>h2</>
+    <h2>User Details</h2/>
 </nav>
 }
-export default User;
+export default User
