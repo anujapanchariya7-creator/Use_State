@@ -9,7 +9,10 @@ function App() {
   return (
     <BrowserRouter>
   <nav>
-
+<li>
+  <link to = "/">Home</link>
+  <link to =></link>
+</li>
   </nav>
     
     </BrowserRouter>
