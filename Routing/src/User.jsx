@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 function User(){
-    const userId = useParams();
+    const {Id}= useParams();
     return(
 <>
 <nav>
@@ -11,7 +11,7 @@ function User(){
         <link to =" user/3">user 3</link>
     </li>
     <h2>User Details</h2>
-    <p>user id: {userId}</p>
+    <p>user id: {Id}</p>
 </nav>
 </>
 )
