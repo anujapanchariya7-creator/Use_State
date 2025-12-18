@@ -2,6 +2,7 @@ import BrowserRouter from "react-router-dom";
 import { link } from "react-router-dom";
 function User(){
     const userId = useParams();
+    return(
 <>
 <nav>
     <li>
@@ -13,5 +14,6 @@ function User(){
     <p>This is user details page</p>
 </nav>
 </>
+)
 }
 export default User;
