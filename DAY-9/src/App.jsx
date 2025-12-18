@@ -10,9 +10,10 @@ function App() {
     <BrowserRouter>
   <nav>
 <li>
-  <link to = "/">Home</link>
-  <link to = "/home"> home</link>
-  
+    <Link to="/">Home</Link>
+    <Link to="/login">login</Link>
+    
+
 </li>
   </nav>
     
