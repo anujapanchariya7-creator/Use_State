@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router-dom";
 function Login() {
-    const loginUser = () => {
-        localStorage.setItem("authToken", "your_auth_token");
-        alert("User logged in successfully!");
+    const Navigate=useNavigate();
+    const loginUser=()=>{
+        // Perform login logic here (e.g., authentication)
+        localStorage.setItem("login","true");
+        Navigate("/dashboard");
     }
-
     return(
         <>
         <h2>Welcome to Login Page</h2>
