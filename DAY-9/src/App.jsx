@@ -5,7 +5,8 @@ function App() {
   return (
   <BrowserRouter>
   <nav> 
-     <link to =""></link>
+     <link to ="/home"></link>
+     <link to ="/dashboard"></link>
 
   </nav>
 
