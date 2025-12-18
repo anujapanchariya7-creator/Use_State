@@ -1,4 +1,8 @@
 function Login() {
+    const loginUser = () => {
+        localStorage.setItem("authToken", "your_auth_token");
+        alert("User logged in successfully!");
+    }
 
     return(
         <>
