@@ -1,15 +1,16 @@
+import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import ProtectRoute from "./ProtectRoute";
 import Home from "./Home";
 import Login from "./login";
 import Dashboard from "./Dashboard";
-
+import {Link} from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-    
-    
-    
+  <nav>
+
+  </nav>
     
     </BrowserRouter>
 
