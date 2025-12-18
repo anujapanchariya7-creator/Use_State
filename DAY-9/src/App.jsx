@@ -11,11 +11,14 @@ function App() {
         <ul>
           <li>
             <Link to="/">Home</Link>
-            <Link to ="/login">Lo </Link>
           </li>
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
+           <li>
+            <Link to="/login">Login</Link>
+          </li>
+
         </ul>
       </nav>
 
