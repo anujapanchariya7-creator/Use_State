@@ -9,6 +9,7 @@ function User(){
         <link to =" user/3">user 3</link>
     </li>
     <h2>User Details</h2>
+    <p>This is user details page</p>
 </nav>
 </>
 }
