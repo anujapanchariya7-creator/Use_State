@@ -1,3 +1,4 @@
+import { isAuthenticated } from "./auth";
 function ProtectRoute(children) {
     if (isAuthenticated()) {
         return children;
