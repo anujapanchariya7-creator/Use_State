@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 function Login() {
-    const Navigate=useNavigate();
+    const Navigate = useNavigate();
     const loginUser=()=>{
         // Perform login logic here (e.g., authentication)
         localStorage.setItem("login","true");
