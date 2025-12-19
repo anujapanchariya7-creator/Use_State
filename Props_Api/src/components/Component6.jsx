@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../assets/context/AppContext";
 
 function Component6() {
   const { e } = useContext(AppContext);

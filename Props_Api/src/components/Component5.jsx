@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../assets/context/AppContext";
 import Component6 from "./Component6";
 
 function Component5() {

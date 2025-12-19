@@ -1,4 +1,4 @@
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../assets/context/AppContext";
 import Component2 from "./Component2";
 
 function Component1() {
