@@ -6,7 +6,6 @@ function Component5({ e, f }) {
       <h3>Component 5</h3>
       <h4>This is prop f: {f}</h4>
 
-      {/* e is NOT used here */}
       <Component6 e={e} />
     </div>
   );
