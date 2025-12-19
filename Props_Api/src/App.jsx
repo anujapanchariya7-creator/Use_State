@@ -1,4 +1,4 @@
-import Component1 from "./components/Component1";
+import Component1 from "../context/AppContext "/
 
 function App() {
   return <Component1 />;
