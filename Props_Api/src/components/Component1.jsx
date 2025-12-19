@@ -1,4 +1,4 @@
-import { AppContext } from "../assets/context/AppContext";
+import { AppContext } from "../context/AppContext";
 import Component2 from "./Component2";
 
 function Component1() {
@@ -13,7 +13,6 @@ function Component1() {
 
   return (
     <AppContext.Provider value={values}>
-      <h3>Component 1</h3>
       <Component2 />
     </AppContext.Provider>
   );
