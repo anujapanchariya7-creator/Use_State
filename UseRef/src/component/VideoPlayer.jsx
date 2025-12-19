@@ -1,7 +1,14 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
+
+const videos = [
+  "https://www.w3schools.com/html/mov_bbb.mp4",
+  "https://www.w3schools.com/html/movie.mp4",
+  "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+];
 
 function VideoPlayer() {
   const videoRef = useRef(null);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const handlePlay = () => {
     videoRef.current.play();
@@ -19,21 +26,36 @@ function VideoPlayer() {
     videoRef.current.currentTime -= 5;
   };
 
+  const handleNext = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
+  const handlePrevious = () => {
+    setCurrentVideoIndex(
+      (prev) => (prev - 1 + videos.length) % videos.length
+    );
+  };
+
   return (
     <div>
-      <h2>Custom Video Player (useRef)</h2>
+      <h2>Video Player with Multiple Videos</h2>
 
       <video
         ref={videoRef}
         width="400"
-        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        src={videos[currentVideoIndex]}
       />
 
       <div style={{ marginTop: "10px" }}>
         <button onClick={handlePlay}>▶️ Play</button>
         <button onClick={handlePause}>⏸ Pause</button>
-        <button onClick={handleForward}>⏩ Forward 5s</button>
-        <button onClick={handleRewind}>⏪ Rewind 5s</button>
+        <button onClick={handleForward}>⏩ Forward</button>
+        <button onClick={handleRewind}>⏪ Rewind</button>
+      </div>
+
+      <div style={{ marginTop: "10px" }}>
+        <button onClick={handlePrevious}>⏮ Previous</button>
+        <button onClick={handleNext}>⏭ Next</button>
       </div>
     </div>
   );
