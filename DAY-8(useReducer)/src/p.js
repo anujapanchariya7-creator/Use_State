@@ -1,5 +1,5 @@
 const price=[5,2,50,60,70];
-const total = price.reduce();
+const total = price.reduce(sum);
 
 console.log(total);
 
