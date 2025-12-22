@@ -3,6 +3,6 @@ const total = price.reduce();
 
 console.log(total);
 
-function sum(accumlator,element){
-    return accumlator+element;
+function sum(acc,element){
+    return acc+element;
 }
