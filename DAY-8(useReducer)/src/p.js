@@ -4,5 +4,5 @@ const total = price.reduce();
 console.log(total);
 
 function sum(accumlator,element){
-    return acccumlator+element;
+    return accumlator+element;
 }
