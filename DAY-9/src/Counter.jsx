@@ -9,7 +9,7 @@ function Counter(){
     }
     const isEven=()=>{
         let i=0
-        while(i<1e10)
+        while(i<1000000000)
         return counterOne%2==0
     }
 
