@@ -18,9 +18,7 @@ function Loop() {
     for (let i = number; i < 10000; i++) {
       s += i;
       console.log(i);
-
     }
-
     return s;
   }, [number]);
 
