@@ -7,8 +7,8 @@ function Counter(){
 
     return(
     <div> 
-    <div><button onChange={incrementOne}> Counter One -{counterOne}</button></div>
-    <div><button onC> Counter Two -{counterTwo}</button></div>
+    <div><button onClick={incrementOne}> Counter One -{counterOne}</button></div>
+    <div><button onClick={incrementTwo}> Counter Two -{counterTwo}</button></div>
     </div>
     )
 }
