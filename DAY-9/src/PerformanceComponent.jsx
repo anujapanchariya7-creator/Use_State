@@ -17,9 +17,8 @@ const t=useMemo(()=>{
     for(let i=number;i<10000;i++)
     { 
     s+i;
-    console.log(i)
-    },
-    [number]);
+    console.log(i);
+    },[number]);
 }
 
 return(
