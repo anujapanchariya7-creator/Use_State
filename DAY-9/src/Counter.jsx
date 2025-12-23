@@ -7,6 +7,9 @@ function Counter(){
     const incrementTwo=()=>{
         setCounterTwo(counterTwo+1)
     }
+    const isEven=()=>{
+        
+    }
 
     return(
     <div> 
