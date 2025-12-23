@@ -4,6 +4,7 @@ function Counter(){
     const incrementOne=()=>{
         setCounterOne(counterOne+1)
     }
+    const incr
 
     return(
     <div> 
