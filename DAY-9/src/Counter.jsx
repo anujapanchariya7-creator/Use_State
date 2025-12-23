@@ -8,14 +8,17 @@ function Counter(){
         setCounterTwo(counterTwo+1)
     }
     const isEven=()=>{
-        
+        return counterOne%2==0
     }
 
     return(
     <div> 
-    <div><button onClick={incrementOne}> Counter One -{counterOne}</button></div>
+    <div><button onClick={incrementOne}> Counter One -{counterOne}</button>
+    <span> {isEven()?'Even' }</span>
+    
+    </div>
     <div><button onClick={incrementTwo}> Counter Two -{counterTwo}</button></div>
     </div>
-    )
+    );
 }
 export default Counter;
