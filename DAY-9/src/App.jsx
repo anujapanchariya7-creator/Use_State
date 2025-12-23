@@ -1,7 +1,7 @@
-
+import Loop from "./PerformanceComponent";
 function App(){
   return (
-<App/>
+<Loop/>
   )
 }
 export default App;
