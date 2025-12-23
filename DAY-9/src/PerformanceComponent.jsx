@@ -13,7 +13,8 @@ setNumber(Number(e.target.value));
 let t=0;
 for(let i=0;i<5;i++)
 { 
-  let t+=i;
+   t +=i;
+   console.log(i);
 }
 
 }
