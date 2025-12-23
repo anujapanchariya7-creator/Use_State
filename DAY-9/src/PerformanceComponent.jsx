@@ -28,7 +28,7 @@ return(
 
             <button onClick={toggleColor}>Toggle</button>
             <p> Enter  number :{number }</p>
-            <p>loop result :{t}</p>
+            <p>loop result :{'t'}</p>
     </div>
 )
 
