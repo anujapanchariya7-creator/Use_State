@@ -8,6 +8,8 @@ function Counter(){
         setCounterTwo(counterTwo+1)
     }
     const isEven=()=>{
+        let i=0
+        while(i<1e10)
         return counterOne%2==0
     }
 
