@@ -13,8 +13,15 @@ function Loop() {
   }
 
   const t = useMemo(() => {
-   s+=i; for(let i=number;i<10000;i++)
-     { s+i; console.log(i); },[number]);
+    console.log(i);
+    let s = 0;
+
+    for (let i = number; i < 10000; i++) {
+      s += i;
+    }
+
+    return s;
+  }, [number]);
 
   return (
     <div style={{ padding: "20px" }}>
