@@ -10,8 +10,8 @@ function toggleColor(){
 }
 function handleChange(e){
 setNumber(Number(e.target.value));
-let t=0;
-for(let i=num;i<num;i++)
+let t=useMemo()
+for(let i=number;i<10000;i++)
 { 
    t+=i;
    console.log(i);
