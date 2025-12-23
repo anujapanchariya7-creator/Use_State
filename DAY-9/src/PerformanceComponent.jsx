@@ -10,6 +10,11 @@ function toggleColor(){
 }
 function handleChange(e){
 setNumber(Number(e.target.value));
+let t=0;
+for(leti=0;i<5;i++)
+{
+    t+=i;
+}
 
 }
 return(
