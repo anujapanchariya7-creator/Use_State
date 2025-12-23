@@ -14,7 +14,7 @@ function Counter(){
     return(
     <div> 
     <div><button onClick={incrementOne}> Counter One -{counterOne}</button>
-    <span> {isEven()?'Even' }</span>
+    <span> {isEven()?'Even': 'odd' }</span>
     
     </div>
     <div><button onClick={incrementTwo}> Counter Two -{counterTwo}</button></div>
