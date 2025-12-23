@@ -17,7 +17,7 @@ return(
         <div style={{backgroundColor: bgColor,padding:"20px",width:"220px",
             borderRadius:"20px" }}>
                 <input type="number" placeholder="Enter number" value={number}
-                onChange={={handleChange/}}></input>
+                onChange={={handleChange}}/>
             </div>
 
 
