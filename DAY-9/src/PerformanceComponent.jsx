@@ -11,12 +11,15 @@ function toggleColor(){
 function handleChange(e){
 setNumber(Number(e.target.value));
 }
+
 const t=useMemo((=>{
+    s+=i;
 for(let i=number;i<10000;i++)
 { 
-
-
-}}
+ s+i;
+ console.log(i)
+},[number]);
+}
 
 
 return(
