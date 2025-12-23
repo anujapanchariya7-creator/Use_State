@@ -19,6 +19,8 @@ console.log("Loop running for number:", number);
     for (let i = number; i < 10000; i++) {
       s += i;
     }
+
+    return s;
   }, [number]);
 
   return (
