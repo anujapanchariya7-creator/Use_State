@@ -18,7 +18,8 @@ const t=useMemo(()=>{
     { 
     s+i;
     console.log(i)
-    },[number]);
+    },
+    [number]);
 }
 
 return(
