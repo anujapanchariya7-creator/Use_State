@@ -9,7 +9,7 @@ function toggleColor(){
 
 }
 function handleChange(e){
-setNumber(Number)
+setNumber(Number())
 
 }
 return(
