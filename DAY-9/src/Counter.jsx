@@ -1,6 +1,9 @@
 function Counter(){
     const [counterOne,setCounterOne] =useState(0)
     const [counterTwo,setCounterTwo] =useState(0)
+    const incrementOne=()=>{
+
+    }
 
     return(
     <div> 
