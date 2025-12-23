@@ -13,7 +13,7 @@ function Loop() {
   }
 
   const t = useMemo(() => {
-    let s = 0;
+    let s+= i;
 
     for (let i = number; i < 10000; i++) {
       s += i;
