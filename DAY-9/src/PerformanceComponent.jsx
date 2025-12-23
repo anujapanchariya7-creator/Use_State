@@ -9,14 +9,15 @@ function toggleColor(){
 
 }
 function handleChange(e){
-
+setNumber()
 
 }
 return(
     <div style={{padding:'20px'}}>
         <div style={{backgroundColor: bgColor,padding:"20px",width:"220px",
             borderRadius:"20px" }}>
-                <input type="number" placeholder="Enter number" value={number}></input>
+                <input type="number" placeholder="Enter number" value={number}
+                onChange={={h}}></input>
             </div>
 
 
