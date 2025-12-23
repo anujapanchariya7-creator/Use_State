@@ -13,7 +13,7 @@ setNumber(Number(e.target.value));
 let t=0;
 for(let i=num;i<num;i++)
 { 
-   num +=i;
+   t +=i;
    console.log(i);
 }
 
@@ -28,7 +28,7 @@ return(
 
             <button onClick={toggleColor}>Toggle</button>
             <p> Enter  number :{number }</p>
-            <p>loop result :{num}</p>
+            <p>loop result :{t}</p>
     </div>
 )
 
