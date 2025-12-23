@@ -5,7 +5,7 @@ function Counter(){
         setCounterOne(counterOne+1)
     }
     const incrementTwo=()=>{
-        setCounterTwo(counterTwo+2)
+        setCounterTwo(counterTwo+1)
     }
 
     return(
