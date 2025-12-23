@@ -14,11 +14,11 @@ setNumber(Number(e.target.value));
 const t=useMemo()
 for(let i=number;i<10000;i++)
 { 
-   t+=i;
-   console.log(i);
-}
+
 
 }
+
+
 return(
     <div style={{padding:'20px'}}>
         <div style={{backgroundColor: bgColor,padding:"20px",width:"220px",
