@@ -13,10 +13,13 @@ function Loop() {
   }
 
   const t = useMemo(() => {
+    console.log("Loop running...");
+    let s = 0;
+
     for (let i = number; i < 10000; i++) {
       s += i;
-      console.log(i);
     }
+
     return s;
   }, [number]);
 
