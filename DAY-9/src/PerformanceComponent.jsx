@@ -11,12 +11,12 @@ function toggleColor(){
 function handleChange(e){
 setNumber(Number(e.target.value));
 }
-const t=useMemo()
+const t=useMemo((=>{
 for(let i=number;i<10000;i++)
 { 
 
 
-}
+}}
 
 
 return(
