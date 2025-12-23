@@ -20,7 +20,7 @@ return(
                 onChange={handleChange}/>
             </div>
 
-            <button onClick={toggleColor}></button>
+            <button onClick={toggleColor}>Toggle</button>
 
     </div>
 )
