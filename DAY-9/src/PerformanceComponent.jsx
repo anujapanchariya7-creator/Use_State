@@ -4,7 +4,10 @@ function Loop(){
 
 const [bgColor,setBgColor]=useState("green");
 const [number,setNumber]=useState(0);
-function 
+function toggleColor(){
+    setBgColor(bgColor==='green'?'lightgreen':'green');
+    
+}
 
 }
 export default Loop;
