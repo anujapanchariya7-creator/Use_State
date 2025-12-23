@@ -11,7 +11,7 @@ function toggleColor(){
 function handleChange(e){
 setNumber(Number(e.target.value));
 let t=0;
-for(let i=0;i<num;i++)
+for(let i=num;i<num;i++)
 { 
    t +=i;
    console.log(i);
