@@ -11,7 +11,7 @@ function toggleColor(){
 function handleChange(e){
 setNumber(Number(e.target.value));
 let t=0;
-for(let i=0;i<5;i++)
+for(let i=0;i<num;i++)
 { 
    t +=i;
    console.log(i);
@@ -28,7 +28,7 @@ return(
 
             <button onClick={toggleColor}>Toggle</button>
             <p> Enter  number :{number }</p>
-            <p>loop result :{'t'}</p>
+            <p>loop result :{t}</p>
     </div>
 )
 
