@@ -1,3 +1,4 @@
+import React from "react";
 function Count({ text, count }) {
   return <h3>{text}: {count}</h3>;
 }
