@@ -12,7 +12,7 @@ const incrementAge=()=>{
 
 setAge(age+1)
 }
-const incrementSalary=()={
+const incrementSalary=()=>{
     setSalary(salary+5000)
 }
 return(
