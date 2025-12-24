@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Title from "./Title";
+import Count from "./Count";
 
 function ParentComponent()
 {
