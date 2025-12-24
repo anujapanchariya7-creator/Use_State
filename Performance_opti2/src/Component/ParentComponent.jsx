@@ -9,7 +9,7 @@ const incrementAge=()={
 setAge(age+1)
 }
 const incrementSalary=()={
-    
+    setSalary(salary+5000)
 }
 return(
 <div>
