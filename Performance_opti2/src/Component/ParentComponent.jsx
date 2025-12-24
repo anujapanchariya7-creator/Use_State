@@ -18,10 +18,10 @@ const incrementSalary=()=>{
 return(
     <div>
     <Title/>
-    <Count text="Age"count={age}/>
+    <Count text="Age" count={age}/>
     <Button handleClick={incrementAge} ></Button>
 
-    <Count text="Salary"count={salary}/>
+    <Count text="Salary" count={salary}/>
     <Button handleClick={incrementSalary} ></Button>
     </div>
     )
