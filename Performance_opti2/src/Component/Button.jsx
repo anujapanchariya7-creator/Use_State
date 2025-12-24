@@ -1,6 +1,6 @@
 function Button( {handleClick,children}){
     return(
-        <button> {children}</button>
+        <button> {handleClick}{children}</button>
     )
 }
 export default Button;
