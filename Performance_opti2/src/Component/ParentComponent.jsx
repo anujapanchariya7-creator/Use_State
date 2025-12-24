@@ -15,6 +15,7 @@ const incrementSalary=()={
 return(
 <div>
 <Title/>
+<Count/>
 
 </div>
 
