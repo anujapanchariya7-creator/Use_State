@@ -1,4 +1,4 @@
-function Button( {handleclick,children}){
+function Button( {handleClick,children}){
     return(
         <button> {children}</button>
     )
