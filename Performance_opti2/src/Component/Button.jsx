@@ -1,6 +1,6 @@
-function Button(){
+function Button( {children}){
     return(
-<h2>hdkj</h2>
+        <button></button>
     )
 }
 export default Button;
