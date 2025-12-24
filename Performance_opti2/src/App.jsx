@@ -1,6 +1,11 @@
 function App(){
   return ( 
-    <h2>Lazy Loading</h2>
+    <div className="App"> 
+      <h2>Lazy Loading</h2>
+      
+      
+      
+      </div>
   )
 }
 export default App;
