@@ -1,9 +1,6 @@
-import ParentComponent from "./Component/ParentComponent"
 function App(){
   return ( 
-    <div className="App">
-      <ParentComponent/>
-    </div>
+    <h2>Lazy Loading</h2>
   )
 }
 export default App;
