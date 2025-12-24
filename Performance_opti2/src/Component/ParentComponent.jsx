@@ -19,7 +19,7 @@ return(
 <div>
 <Title/>
 <Count text="Age"count={age}/>
-<Button ></Button>
+<Button handleClick={incrementAge} ></Button>
 
 <Count text="Salary"count={salary}/>
 
