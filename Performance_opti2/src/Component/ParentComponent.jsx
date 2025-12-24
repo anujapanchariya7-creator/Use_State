@@ -8,7 +8,7 @@ const [age,setAge]=useState(22);
 const [salary,setSalary]=useState(500000);
 
 const incrementAge=()={
-    
+
 setAge(age+1)
 }
 const incrementSalary=()={
@@ -17,7 +17,7 @@ const incrementSalary=()={
 return(
 <div>
 <Title/>
-<Count/>
+<Count text="Age"count={age}/>
 
 </div>
 
