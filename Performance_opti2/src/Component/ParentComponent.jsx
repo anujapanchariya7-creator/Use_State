@@ -18,6 +18,8 @@ return(
 <div>
 <Title/>
 <Count text="Age"count={age}/>
+<Count text="Salary"count={salary}/>
+
 
 </div>
 
