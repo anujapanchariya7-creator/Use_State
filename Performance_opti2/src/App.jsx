@@ -1,6 +1,6 @@
 import { Suspense ,React } from "react";
 
-const Lazy=React.lazy(()=>import(./LazyLoad))
+const Lazy=React.lazy(()=>import('./LazyLoad'))
 function App(){
   return ( 
     <div className="App"> 
