@@ -1,6 +1,6 @@
 function LazyLoad(){
 return(
-    <h2> LAzy</h2>
+    <h2> Lazy</h2>
 )
 }
 export default LazyLoad;
