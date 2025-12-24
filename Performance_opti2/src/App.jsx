@@ -1,5 +1,5 @@
-import LazyLoad from "./Component/LazyLoad";
-const Lazy=React.lazy(())
+
+const Lazy=React.lazy(()=>import(./LazyLoad))
 function App(){
   return ( 
     <div className="App"> 
