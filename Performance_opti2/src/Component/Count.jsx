@@ -1,7 +1,7 @@
 function Count( text,count){
-console.log(`${text}`)
+console.log(`Rendering${text}`)
 return(
-    <div{text}-{count}></div>
+    <div>{text}-{count}</div>
 )
 }
 export default Count;
