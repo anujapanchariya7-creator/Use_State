@@ -22,6 +22,8 @@ return(
 <Button handleClick={incrementAge} ></Button>
 
 <Count text="Salary"count={salary}/>
+<Button handleClick={incrementSalary} ></Button>
+
 
 </div>
 
