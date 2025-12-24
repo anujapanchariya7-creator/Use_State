@@ -10,7 +10,7 @@ const [salary,setSalary]=useState(500000);
 
 const incrementAge=()=>{
 
-setAge(age+1)
+    setAge(age+1)
 }
 const incrementSalary=()=>{
     setSalary(salary+5000)
