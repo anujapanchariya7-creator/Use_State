@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense ,React } from "react";
 
 const Lazy=React.lazy(()=>import(./LazyLoad))
 function App(){
@@ -6,7 +6,7 @@ function App(){
     <div className="App"> 
       <h2>Lazy Loading</h2>
       <Suspense>
-      <></>
+      <Lazy/>
 
       </Suspense>
       </div>
