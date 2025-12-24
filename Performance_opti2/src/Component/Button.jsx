@@ -1,1 +1,6 @@
-function Button( {handleClick,children}){ return( <button onClick={handleClick}> {children}</button> ) } export default Button;
+function Button( {handleClick,children}){
+    return(
+        <button> {children}</button>
+    )
+}
+export default Button;
