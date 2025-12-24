@@ -1,7 +1,9 @@
-import { useMemo,useState } from "react";
+import {useState } from "react";
 import Title from "./Title";
 import Count from "./Count";
 import Button from "./Button";
+import React from "react";
+
 
 function ParentComponent() {
   const [age, setAge] = useState(22);
