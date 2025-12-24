@@ -1,17 +1,15 @@
-import React, { Suspense } from "react";
-
-const Lazy = React.lazy(() => import("./LazyLoad"));
-
-function App() {
+function LazyLoad() {
   return (
-    <div className="App">
+    <div>
       <h2>Lazy Loading</h2>
-
-      <Suspense fallback={<h3>Loading...</h3>}>
-        <Lazy />
-      </Suspense>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis...
+      </p>
     </div>
   );
 }
 
-export default App;
+export default LazyLoad;
