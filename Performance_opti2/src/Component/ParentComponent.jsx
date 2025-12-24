@@ -16,15 +16,15 @@ const incrementSalary=()=>{
     setSalary(salary+5000)
 }
 return(
-<div>
-<Title/>
-<Count text="Age"count={age}/>
-<Button handleClick={incrementAge} ></Button>
+    <div>
+    <Title/>
+    <Count text="Age"count={age}/>
+    <Button handleClick={incrementAge} ></Button>
 
-<Count text="Salary"count={salary}/>
-<Button handleClick={incrementSalary} ></Button>
-</div>
-)
+    <Count text="Salary"count={salary}/>
+    <Button handleClick={incrementSalary} ></Button>
+    </div>
+    )
 
 }
 export default ParentComponent;
