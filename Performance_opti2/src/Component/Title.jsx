@@ -1,7 +1,6 @@
-function Title(){
-    console.log( "Rendering title");
-    return(
-        <h2>useCallback Hook</h2>
-    )
+function Title() {
+  console.log("Rendering title");
+  return <h2>useCallback Hook</h2>;
 }
-export default Title;
+
+export default React.memo(Title);
