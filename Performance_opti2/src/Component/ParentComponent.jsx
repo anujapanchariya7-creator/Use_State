@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Title from "./Title";
 import Count from "./Count";
+import Button from "./Button";
 
 function ParentComponent()
 {
@@ -19,6 +20,7 @@ return(
 <Title/>
 <Count text="Age"count={age}/>
 <Button></Button>
+
 <Count text="Salary"count={salary}/>
 
 
