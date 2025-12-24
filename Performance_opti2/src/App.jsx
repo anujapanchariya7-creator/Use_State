@@ -1,5 +1,5 @@
-import { Suspense ,React } from "react";
-
+import { Suspense  } from "react";
+import React from "react";
 const Lazy=React.lazy(()=>import('./LazyLoad'))
 function App(){
   return ( 
