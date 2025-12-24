@@ -1,7 +1,7 @@
 
 function ParentComponent()
 {
-<button onC></button>
+const [age,setAge]=useState(22);
 
 }
 export default ParentComponent;
