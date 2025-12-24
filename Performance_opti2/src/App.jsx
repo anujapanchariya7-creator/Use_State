@@ -1,4 +1,4 @@
-import ParentComponent from 
+import ParentComponent from "./Component/ParentComponent"
 function App(){
   return ( 
     <div className="App">
