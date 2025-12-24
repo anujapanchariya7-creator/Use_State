@@ -1,6 +1,6 @@
 function Button( {children}){
     return(
-        <button></button>
+        <button> {children}</button>
     )
 }
 export default Button;
