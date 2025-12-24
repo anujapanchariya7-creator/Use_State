@@ -1,15 +1,17 @@
-import { Suspense  } from "react";
-import React from "react";
-const Lazy=React.lazy(()=>import('./LazyLoad'))
-function App(){
-  return ( 
-    <div className="App"> 
-      <h2>Lazy Loading</h2>
-      <Suspense>
-      <Lazy/>
+import React, { Suspense } from "react";
 
+const Lazy = React.lazy(() => import("./LazyLoad"));
+
+function App() {
+  return (
+    <div className="App">
+      <h2>Lazy Loading</h2>
+
+      <Suspense fallback={<h3>Loading...</h3>}>
+        <Lazy />
       </Suspense>
-      </div>
-  )
+    </div>
+  );
 }
+
 export default App;
