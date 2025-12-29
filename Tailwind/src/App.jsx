@@ -17,7 +17,7 @@ return(
       </section>
       <section class='text-center gap-3'>
         <h2 class="mb-4 text-xl font-semibold font-center">Feature</h2>
-        <div class="grid-cols-3 gap-7">
+        <div class="grid-cols-grid-cols-1  gap-7">
                 <div class="bg-sky-600 p-4">feature 1</div>
                 <div class="bg-sky-600 p-4">feature 2</div>
                 <div class="bg-sky-600 p-4">feature 3</div>
