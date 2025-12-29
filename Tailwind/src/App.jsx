@@ -1,7 +1,7 @@
 function App(){
 return(
 <div className="bg-sky-300 h-screen w-screen">
-    <div>
+    <div class=" ">
       <h1> My webpage</h1>
       <nav>
         <a href="#">Home</a>
