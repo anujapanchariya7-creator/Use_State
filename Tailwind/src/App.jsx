@@ -18,7 +18,6 @@ return(
       <section>
         <h2 class="mb-4 text-xl font-semibold font-center">feature</h2>
         <div>
-                <h2 class= "mb-4 text-xl font-semibold font-center">feature</h2>
                 <div>feature 1</div>
                 <div>feature 2</div>
                 <div>feature 3</div>
