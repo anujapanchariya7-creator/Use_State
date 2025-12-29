@@ -5,7 +5,7 @@ return(
       <h1> My webpage</h1>
       <nav>
         <a href="#">Home</a>
-        <a href="# class=m">Blog</a>
+        <a href="#" class= "ml-4">Blog</a>
         <a href="#">contact</a>
       </nav>
     </div>
