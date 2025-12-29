@@ -1,7 +1,7 @@
 function App(){
 return(
 <div className="bg-sky-300 h-screen w-screen">
-    <div class="bg-sky-400  px-6 py-4 text-white flex-row-reverse justify-between">
+    <div class="bg-sky-400  px-6 py-4 text-white flex justify-between">
       <h1> My webpage</h1>
       <nav>
         <a href="#">Home</a>
