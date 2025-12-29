@@ -1,10 +1,14 @@
-function AxiosFun(){
+import axios from "./Axios";
+import { useEffect, useState } from "react";
 
-useEffect(()=>{
+function AxiosFun() {
+    const [products,setProduct]=useState([]);
+    const [error,setError]=useState("");
+useEffect(() => {
 
-},[]);
-
-axio
-
+    axios.get("/posts")
+    .then((response) =>setProduct(response.data.products))
+    .catch((error)=>setError(error.message))
+}, []);
 }
 export default AxiosFun;
