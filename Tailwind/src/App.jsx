@@ -2,7 +2,7 @@ function App(){
 return(
 <div className="bg-sky-300 h-screen w-screen">
     <div class="bg-sky-400  px-6 py-4 text-white flex justify-between">
-      <h1 class=" text-2xl font-mono tracking-widest">
+      <h1 class=" text-2xl font-mono -tracking-tighter">
         My webpage</h1>
       <nav class="flex gap-5">
         <a href="#">Home</a>
@@ -10,7 +10,7 @@ return(
         <a href="#">contact</a>
       </nav>
     </div>
-    <div>Core</div>
+    <div>Core </div>
     <div>Footer</div>
 </div>
 )
