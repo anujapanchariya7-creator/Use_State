@@ -1,6 +1,6 @@
 function App(){
 return(
-<div className="bg-s-300">
+<div className="bg-sky-300 h-10 w">
     <div>Navbar</div>
     <div>Core</div>
     <div>Footer</div>
