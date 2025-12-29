@@ -12,13 +12,18 @@ return(
     </div>
     <div>
       <section>
-        <
+        <h2>welcome to website</h2>
+        <p> this is hero section</p>
+      </section>
+      <section>
+        <div>
+          
+        </div>
       </section>
       
       
       
-      
-       </div>
+      </div>
     <div>Footer</div>
 </div>
 )
