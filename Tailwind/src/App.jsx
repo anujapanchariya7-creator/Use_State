@@ -10,7 +10,15 @@ return(
         <a href="#">contact</a>
       </nav>
     </div>
-    <div>Core </div>
+    <div>
+      <section>
+        <
+      </section>
+      
+      
+      
+      
+       </div>
     <div>Footer</div>
 </div>
 )
