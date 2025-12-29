@@ -4,7 +4,9 @@ return(
     <div>
       <h1> My webpage</h1>
       <nav>
-        
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">contact</a>
       </nav>
     </div>
     <div>Core</div>
