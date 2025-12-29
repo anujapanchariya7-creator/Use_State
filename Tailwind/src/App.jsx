@@ -11,7 +11,7 @@ return(
       </nav>
     </div>
     <div>
-      <section>
+      <section class="text-center">
         <h2 class="mb-4 text-xl font-semibold font-center">welcome to website</h2>
         <p> this is hero section</p>
       </section>
