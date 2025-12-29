@@ -25,7 +25,7 @@ return(
         </div>
       </section>
       </div>
-    <div>Footer</div>
+    <div> &copy; 2025 myWebsite</div>
 </div>
 )
 }
