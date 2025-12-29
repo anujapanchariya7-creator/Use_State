@@ -16,8 +16,9 @@ return(
         <p> this is hero section</p>
       </section>
       <section>
+        <h2>feature</h2>
         <div>
-          
+
         </div>
       </section>
       
