@@ -1,7 +1,10 @@
 function App(){
 return(
 <div className="bg-sky-300 h-screen w-screen">
-    <div>Navbar</div>
+    <div>
+      <h1> My webpage</h1>
+      
+    </div>
     <div>Core</div>
     <div>Footer</div>
 </div>
