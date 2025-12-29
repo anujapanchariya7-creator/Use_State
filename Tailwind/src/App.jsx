@@ -15,7 +15,7 @@ return(
         <h2 class="mb-4 text-xl font-semibold font-center">welcome to website</h2>
         <p> this is hero section</p>
       </section>
-      <section class "text-center">
+      <section class='text-center'>
         <h2 class="mb-4 text-xl font-semibold font-center">Feature</h2>
         <div class="grid-cols-3">
                 <div class="bg-sky-300">feature 1</div>
