@@ -10,6 +10,8 @@ return(
         <a href="#">contact</a>
       </nav>
     </div>
+</div>
+
     <div>
       <section class="text-center">
         <h2 class="mb-4 text-xl font-semibold font-center">welcome to website</h2>
@@ -26,7 +28,6 @@ return(
       </section>
       </div>
     <div>Footer</div>
-</div>
 )
 }
 export default App;
