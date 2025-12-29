@@ -10,11 +10,9 @@ return(
         <a href="#">contact</a>
       </nav>
     </div>
-</div>
-
     <div>
       <section class="text-center">
-        <h2 class="mb-4 text-xl font-semibold font-center">welcome to website</h2>
+        <h2 class="mb-4 text-xl font-semibold font-center sm:text-red-500">welcome to website</h2>
         <p> this is hero section</p>
       </section>
       <section class='text-center gap-3'>
@@ -28,6 +26,7 @@ return(
       </section>
       </div>
     <div>Footer</div>
+</div>
 )
 }
 export default App;
