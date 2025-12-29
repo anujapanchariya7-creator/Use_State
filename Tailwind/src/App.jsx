@@ -3,9 +3,9 @@ return(
 <div className="bg-sky-300 h-screen w-screen">
     <div class="bg-sky-400  px-6 py-4 text-white flex justify-between">
       <h1> My webpage</h1>
-      <nav>
+      <nav class= "ml-4">
         <a href="#">Home</a>
-        <a href="#" class= "ml-4">Blog</a>
+        <a href="#" >Blog</a>
         <a href="#">contact</a>
       </nav>
     </div>
