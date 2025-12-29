@@ -19,7 +19,9 @@ return(
         <h2>feature</h2>
         <div>
                 <h2>feature</h2>
-                <div>feature </div>
+                <div>feature 1</div>
+                <div>feature 2</div>
+                <div>feature 3</div>
 
         </div>
       </section>
