@@ -36,6 +36,9 @@ function App() {
             <div className="bg-sky-600 p-4 rounded text-white">Feature 1</div>
             <div className="bg-sky-600 p-4 rounded text-white">Feature 2</div>
             <div className="bg-sky-600 p-4 rounded text-white">Feature 3</div>
+            <div className="bg-sky-600 p-4 rounded text-white">Feature 4</div>
+            <div className="bg-sky-600 p-4 rounded text-white">Feature 5</div>
+            <div className="bg-sky-600 p-4 rounded text-white">Feature 6</div>
           </div>
         </section>
 
