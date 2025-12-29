@@ -46,7 +46,7 @@ function App() {
 
       {/* Footer */}
       <div className="text-center py-4 bg-sky-400 text-white">
-        &copy 2025 myWebsite
+        &copy; 2025 myWebsite
       </div>
 
     </div>
