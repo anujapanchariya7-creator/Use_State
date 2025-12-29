@@ -18,6 +18,7 @@ return(
       <section>
         <h2>feature</h2>
         <div>
+                <h2>feature</h2>
 
         </div>
       </section>
