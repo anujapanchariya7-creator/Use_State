@@ -17,10 +17,10 @@ return(
       </section>
       <section class='text-center'>
         <h2 class="mb-4 text-xl font-semibold font-center">Feature</h2>
-        <div class="grid-cols-3">
-                <div class="bg-sky-300">feature 1</div>
-                <div class="bg-sky-300">feature 2</div>
-                <div class="bg-sky-300">feature 3</div>
+        <div class="grid-cols-3 gap-3">
+                <div class="bg-sky-600">feature 1</div>
+                <div class="bg-sky-600">feature 2</div>
+                <div class="bg-sky-600">feature 3</div>
 
         </div>
       </section>
