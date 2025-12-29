@@ -1,7 +1,7 @@
 
 function App(){
 return(
-  <p className="">Hello Tailwind CSS</p>
+  <p class="text= to-blue-950">Hello Tailwind CSS</p>
 )
 }
 export default App;
