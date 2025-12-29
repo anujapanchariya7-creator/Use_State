@@ -1,9 +1,9 @@
-
 function App(){
 return(
-  <div class="bg-amber-300 "> 
-  <p class ="text-sky-500 px-4 py-2 m-20">Hello Tailwind CSS!!</p>
-
+<div className="bg-teal-500">
+    <div>Navbar</div>
+    <div>Core</div>
+    <div>Footer</div>
 </div>
 )
 }
