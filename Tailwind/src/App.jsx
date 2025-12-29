@@ -16,7 +16,7 @@ return(
         <p> this is hero section</p>
       </section>
       <section>
-        <h2>feature</h2>
+        <h2 class="mb-4 text-xl font-semibold font-center">feature</h2>
         <div>
                 <h2>feature</h2>
                 <div>feature 1</div>
