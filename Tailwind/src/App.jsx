@@ -25,7 +25,7 @@ return(
         </div>
       </section>
       </div>
-    <div> &copy; 2025 myWebsite</div>
+    <div class="bg-sky-600 text-center text-small "> &copy; 2025 myWebsite</div>
 </div>
 )
 }
