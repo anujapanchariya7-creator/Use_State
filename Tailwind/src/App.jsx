@@ -12,7 +12,7 @@ return(
     </div>
     <div>
       <section>
-        <h2 class="">welcome to website</h2>
+        <h2 class="mb-4 text-xl font-semibold">welcome to website</h2>
         <p> this is hero section</p>
       </section>
       <section>
