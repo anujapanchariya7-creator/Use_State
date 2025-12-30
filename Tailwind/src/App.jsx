@@ -98,7 +98,6 @@ function App() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="text-center py-6 bg-sky-500 dark:bg-gray-800 text-white text-sm">
           &copy; 2025 MyWebpage. All rights reserved.
         </footer>
